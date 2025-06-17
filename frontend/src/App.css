@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
 }
 
 .logo {
@@ -35,8 +37,72 @@
 
 .card {
   padding: 2em;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgba(60, 72, 88, 0.12);
+  margin-bottom: 2rem;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.destinations-section {
+  background: linear-gradient(135deg, #a5b4fc 0%, #f472b6 100%);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 2px 16px 0 rgba(60, 72, 88, 0.10);
+}
+.destinations-section h2 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.destinations-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.destination-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px 0 rgba(60, 72, 88, 0.10);
+  padding: 1.5rem 2rem;
+  min-width: 180px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.destination-card:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 6px 24px 0 rgba(60, 72, 88, 0.18);
+}
+.destination-name {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #6366f1;
+}
+.destination-country {
+  font-size: 1em;
+  color: #f472b6;
+  margin-top: 0.5em;
+}
+
+.subtitle {
+  color: #6366f1;
+  font-size: 1.3em;
+  margin-bottom: 1.5em;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.footer {
+  margin-top: 3rem;
+  padding: 1.2em 0 0.5em 0;
+  color: #6366f1;
+  font-size: 1em;
+  background: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
