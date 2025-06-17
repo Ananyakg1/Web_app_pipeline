@@ -1,0 +1,18 @@
+# Devcontainer configuration for Codespaces
+{
+  "name": "Travel Agency Dev Container",
+  "build": {
+    "dockerfile": "../frontend/Dockerfile"
+  },
+  "service": "frontend",
+  "workspaceFolder": "/workspaces/Web_app_pipeline",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [3000, 5000]
+}
